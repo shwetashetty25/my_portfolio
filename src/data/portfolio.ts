@@ -132,7 +132,7 @@ export const portfolioData: PortfolioData = {
         "Implemented secure medical record storage and access controls",
         "Designed role-based dashboards for patients and healthcare providers"
       ],
-      githubUrl: "https://github.com/shwetashetty25",
+      githubUrl: "https://github.com/shwetashetty25/Healthcare-platform",
       liveUrl: "",
       featured: true,
       caseStudy: {
@@ -156,7 +156,7 @@ export const portfolioData: PortfolioData = {
         "Implemented customer account management and service request tracking",
         "Designed a responsive admin interface for operations staff"
       ],
-      githubUrl: "https://github.com/shwetashetty25",
+      githubUrl: "https://github.com/shwetashetty25/Telecom-Platform",
       liveUrl: "",
       featured: true,
       caseStudy: {
@@ -180,7 +180,7 @@ export const portfolioData: PortfolioData = {
         "Implemented student progress tracking and instructor interaction features",
         "Designed an intuitive interface for browsing and enrolling in courses"
       ],
-      githubUrl: "https://github.com/shwetashetty25",
+      githubUrl: "https://github.com/shwetashetty25/EduPlatform",
       liveUrl: "",
       featured: true,
       caseStudy: {
@@ -194,27 +194,27 @@ export const portfolioData: PortfolioData = {
       }
     },
     {
-      id: "freelance-management",
-      name: "Freelance Project Management System",
+      id: "fleet-maintenance-tracker",
+      name: "Fleet Maintenance Tracker",
       category: "FULL STACK",
-      description: "A project management tool for freelancers to track client projects, deadlines, invoices, and communication in one place.",
+      description: "A web application to track vehicle health, maintenance schedules, and service reminders using React, Node.js, Express, and MySQL/MongoDB to reduce unplanned downtime.",
       tech: ["React.js", "Node.js", "MySQL", "REST API"],
       highlights: [
-        "Built a project tracking system for managing client work and deadlines",
-        "Implemented invoicing and payment status tracking features",
-        "Designed a clean dashboard for managing multiple client projects at once"
+        "Built a fleet tracking system to manage vehicle service history and alert schedules",
+        "Implemented maintenance logs and service reminders with system status indicators",
+        "Designed an operations dashboard for fleet managers to monitor vehicle parameters"
       ],
-      githubUrl: "https://github.com/shwetashetty25",
+      githubUrl: "https://github.com/shwetashetty25/Fleet_Maintenance_Tracker",
       liveUrl: "",
       featured: true,
       caseStudy: {
-        problem: "Freelancers experience friction tracking client tasks, generating invoices, and centralizing chat logs.",
-        goal: "Develop a comprehensive client project portal summarizing deadlines, payments, and invoices in one view.",
-        role: "Lead Architect",
-        process: "Designed dashboard states in Figma. Implemented secure MySQL tables for invoices and tasks. Built React interfaces.",
-        challenges: "Preventing cross-client security issues where client profiles access unauthorized details.",
-        solution: "Enforced strict JWT verification filters matching client tokens against resource IDs.",
-        outcome: "A clean workspace board allowing freelancers to manage client tasks and receive payments."
+        problem: "Fleet managers lose track of minor service dates, resulting in vehicle breakdowns and expensive repairs.",
+        goal: "Build a centralized dashboard summarizing fleet status, highlighting vehicles needing immediate checkups.",
+        role: "Full-Stack Developer",
+        process: "Modeled fleet schemas in Mongoose. Created cron scheduler scripts for maintenance date checking. Built React cards with alert status borders.",
+        challenges: "Managing asynchronous push reminders across devices with varying service intervals.",
+        solution: "Configured automated email alerts via Nodemailer, paired with web notifications using browser service workers.",
+        outcome: "A simple diagnostic dashboard that helps keep vehicle fleets fully serviced and reduces unplanned downtime."
       }
     }
   ],
